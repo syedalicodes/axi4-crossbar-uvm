@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Verilator build artifacts
+obj_dir/
+sim_build/
+sim_build_*/
+*.o
+*.d
+*.a
+*.so
+Vtop*
+Vaxi4*
+verilated*
+coverage.dat
+*.vcd
+*.fst
+results.xml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
